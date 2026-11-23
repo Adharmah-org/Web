@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /author-studio
+Disallow: /api/
+
+Sitemap: /sitemap.xml

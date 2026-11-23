@@ -1,0 +1,8 @@
+{
+  "name": "TEJAS · BENIYAAZ.ROOH",
+  "description": "Digital literary archive and author website of Tejas Purvesh Phirake: novels, Marathi theatre, multilingual poetry, and reflections. Some feelings leave. The words stay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
