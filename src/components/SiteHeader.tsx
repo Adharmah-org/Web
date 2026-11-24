@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { ChevronDown, Menu, Search, X } from 'lucide-react';
+import { BrandMark } from './BrandMark';
 import {
   GlobalTranslateControl,
   GlobalTranslationBanner,
@@ -67,9 +68,13 @@ export function SiteHeader({ onOpenSearch }: SiteHeaderProps) {
         <Link
           to="/"
           data-no-translate="true"
-          className="min-w-0 truncate whitespace-nowrap font-literary text-base font-semibold tracking-[0.14em] text-[#EFEAE0] transition-colors hover:text-[#DEC07C] sm:text-xl sm:tracking-[0.16em]"
+          aria-label="BENIYAAZ ROOH, home"
+          className="group flex min-w-0 items-center gap-2.5 text-[#EFEAE0] transition-colors hover:text-[#DEC07C] sm:gap-3"
         >
-          BENIYAAZ ROOH
+          <BrandMark className="h-8 w-8 shrink-0 transition-transform duration-200 group-hover:scale-105 sm:h-9 sm:w-9" />
+          <span className="min-w-0 truncate whitespace-nowrap font-literary text-base font-semibold tracking-[0.14em] sm:text-xl sm:tracking-[0.16em]">
+            BENIYAAZ ROOH
+          </span>
         </Link>
 
         {/* Zone 2: Concise Single-Line Navigation Links */}
